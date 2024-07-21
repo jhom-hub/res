@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 20, 2024 at 08:43 PM
+-- Generation Time: Jul 21, 2024 at 08:34 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -45,12 +45,7 @@ INSERT INTO `appointment` (`id`, `full_name`, `division`, `section`, `concern`, 
 (1, 'SAMPLE', 'SAMPLE', 'SAMPLE', 'WINDOWS UPDATE', NULL, '2024-07-20 14:45:19'),
 (2, 'TEST', 'TEST', 'TEST', 'WIFI CONNECTION', NULL, '2024-07-20 15:10:55'),
 (3, 'AS', 'AS', 'AS', 'WIFI CONNECTION', NULL, '2024-07-20 15:14:48'),
-(4, 'AA', 'A', 'A', 'WINDOWS UPDATE', '2024-07-31', '2024-07-20 15:44:20'),
-(5, 'J', 'J', 'J', 'WIFI CONNECTION', '2024-07-26', '2024-07-20 15:52:40'),
-(6, 'QQ', 'QQ', 'QQ', 'WINDOWS UPDATE', '2024-07-31', '2024-07-20 15:53:35'),
-(7, 'AA', 'AA', 'A', 'WIFI CONNECTION', '2024-07-31', '2024-07-20 17:30:28'),
-(8, 'A', 'A', 'A', 'WINDOWS UPDATE', '2024-07-31', '2024-07-20 17:30:51'),
-(9, 'S', 'S', 'S', 'WIFI CONNECTION', '2024-07-31', '2024-07-20 17:31:09');
+(13, 'JHOMELL JASPIO', 'ISD', 'ISD', 'WIFI CONNECTION', '2024-07-31', '2024-07-21 06:23:32');
 
 --
 -- Indexes for dumped tables
@@ -70,7 +65,7 @@ ALTER TABLE `appointment`
 -- AUTO_INCREMENT for table `appointment`
 --
 ALTER TABLE `appointment`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -68,6 +68,10 @@
             color: darkred !important;
         }
 
+        .red-text {
+            color: darkred !important;
+        }
+
 
     </style>
     <body>
@@ -121,8 +125,8 @@
                                 <input type="date" name="date" size="60" id="date" class="form-control" style="text-transform: uppercase;" required>
                             </div>
 
-                            <div class="submit mb-3">
-                                <input type="submit" value="Submit" name="submit" id="submit" class="btn btn-primary">
+                            <div class="submit">
+                                <input type="submit" value="Submit" name="submit" id="submit" class="btn btn-success w-25">
                             </div>
                         </form>
                     </div>
@@ -133,7 +137,9 @@
 
     <!-- script -->
     <script>
+
         document.addEventListener('DOMContentLoaded', function() {
+
             const calendarEl = document.getElementById('calendar')
             const calendar = new FullCalendar.Calendar(calendarEl, {
             initialView: 'dayGridMonth',
@@ -157,5 +163,6 @@
                 alert('Weekends not allowed, please select weekdays.');
             }
         });
+
     </script>
 </html>
