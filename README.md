@@ -1,0 +1,1 @@
+It is an online reservation system for each employee. Each employee can get a reservation for his or her preferred date, but each date has five slots. If the employee chooses a date with five slots already, his or her submission can't be submitted. And this reservation is for weekdays only weekends are not considered.
